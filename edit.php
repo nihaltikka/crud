@@ -30,13 +30,13 @@ else
 }
 ?>
 <form method="POST">
-<input type="text" name="fullname" value =<?php echo $check['fullname'];?> placeholder="Full Name">
+<input type="text" name="fullname" value =<?php echo $check['Full Name'];?> placeholder="Full Name">
 
-<input type="text" name="dateofjoining" value =<?php echo $check['dateofjoining'];?> placeholder="Date of Joining">
+<input type="text" name="dateofjoining" value =<?php echo $check['Date Of Joining'];?> placeholder="Date of Joining">
 
-<input type="text" name="age" value =<?php echo $check['age'];?> placeholder="Age">
+<input type="text" name="age" value =<?php echo $check['Age'];?> placeholder="Age">
 
-<input type="text" name="email" value =<?php echo $check['email'];?> placeholder="Email">
+<input type="text" name="email" value =<?php echo $check['Email'];?> placeholder="Email">
 
 <input type="submit" name="done">
 
